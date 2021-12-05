@@ -1,0 +1,316 @@
+{
+	"id": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+	"name": "Student API",
+	"description": "",
+	"order": [
+		"6ec7881b-1a42-bd07-df3b-324e8c55551e",
+		"efe33761-997d-5fb4-18ae-cf0dc254b2e1",
+		"f111c20d-e60e-ea20-0f44-71a5b8f82405",
+		"ab5ac293-f0e8-05d2-1ad0-a9e1dcf44805",
+		"1699b087-4ea9-dd00-0804-b9cb724b996e",
+		"d19bc0f9-1029-847d-e8ff-d76267ac78ea"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1638722643296,
+	"owner": "6647226",
+	"public": false,
+	"requests": [
+		{
+			"id": "1699b087-4ea9-dd00-0804-b9cb724b996e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n//Authorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{URL}}/api/student/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "973663636363663639",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1638734970757,
+			"name": "Student Login",
+			"description": "",
+			"collectionId": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+			"responses": []
+		},
+		{
+			"id": "6ec7881b-1a42-bd07-df3b-324e8c55551e",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{URL}}/api/student/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "ghghf",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dob",
+					"value": "776",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "mobilenumber",
+					"value": "973663636363663639",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "rsakthi71191@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "department",
+					"value": "csr",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address",
+					"value": "dgl",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "profileImage",
+					"value": "Screenshot (2).png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1638733287539,
+			"name": "Student Signup",
+			"description": "",
+			"collectionId": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+			"responses": []
+		},
+		{
+			"id": "ab5ac293-f0e8-05d2-1ad0-a9e1dcf44805",
+			"headers": "Authorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{URL}}/api/student/update/61ad14b7631be05f7f8ad78e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "rsm1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dob",
+					"value": "7761",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "mobilenumber",
+					"value": "9524859181",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "rsakthi711111@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "department",
+					"value": "cse",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address",
+					"value": "mdu",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "profileImage",
+					"value": "Screenshot (5).png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1638733284834,
+			"name": "Student Update",
+			"description": "",
+			"collectionId": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+			"responses": []
+		},
+		{
+			"id": "d19bc0f9-1029-847d-e8ff-d76267ac78ea",
+			"headers": "Authorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{URL}}/api/student/logout/61ad0dd892e5ea50aecbe64a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1638731915759,
+			"name": "Student Logout",
+			"description": "",
+			"collectionId": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+			"responses": []
+		},
+		{
+			"id": "efe33761-997d-5fb4-18ae-cf0dc254b2e1",
+			"headers": "Authorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{URL}}/api/student/list",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1638730767085,
+			"name": "Student List",
+			"description": "",
+			"collectionId": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+			"responses": []
+		},
+		{
+			"id": "f111c20d-e60e-ea20-0f44-71a5b8f82405",
+			"headers": "Authorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{URL}}/api/student/delete/61ad0de992e5ea50aecbe650",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1638731282289,
+			"name": "Delete Student",
+			"description": "",
+			"collectionId": "b7b7be8b-74e3-96e1-2607-74eb7e7441bf",
+			"responses": []
+		}
+	]
+}
